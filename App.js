@@ -12,26 +12,27 @@ export default function App() {
 
   return (
     <View>
-      <View>
-        <TextInput />
+      <View style={{padding: 40}}>
+        <TextInput placeholder="XoXo" 
+        style={{borderBottomColor: 'black', borderBottomWidth: 1}} />
         <Button title="ADD " />
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
-    padding: 8,
-  },
-  paragraph: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     paddingTop: Constants.statusBarHeight,
+//     backgroundColor: '#ecf0f1',
+//     padding: 8,
+//   },
+//   paragraph: {
+//     margin: 24,
+//     fontSize: 18,
+//     fontWeight: 'bold',
+//     textAlign: 'center',
+//   },
+// });
