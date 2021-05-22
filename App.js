@@ -14,5 +14,11 @@ export default function App() {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
+  },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
   }
 });
